@@ -1,77 +1,17 @@
 {
-  "casino1": {
-    "id" : 1,
-    "name": "Casino1",
-    "city": "City1",
-    "games":[
-      {
-        "date": "2018-01-01",
-        "nbMinPlayer": 3,
-        "nbMaxPlayer": 6,
-        "stake": 200000
-      },
-      {
-        "date": "2018-02-01",
-        "nbMinPlayer": 4,
-        "nbMaxPlayer": 8,
-        "stake": 1000000
-      },
-      {
-        "date": "2018-03-01",
-        "nbMinPlayer": 3,
-        "nbMaxPlayer": 5,
-        "stake": 20000
-      }
-    ]
+
+"name":"flare",
+"children":[
+  {
+    "name":"Casino1"
   },
-  "casino2": {
-    "id" : 2,
-    "name": "Casino2",
-    "city": "City2",
-    "games":[
-      {
-        "date": "2018-01-02",
-        "nbMinPlayer": 3,
-        "nbMaxPlayer": 4,
-        "stake": 1000
-      },
-      {
-        "date": "2018-02-02",
-        "nbMinPlayer": 4,
-        "nbMaxPlayer": 7,
-        "stake": 10000
-      },
-      {
-        "date": "2018-03-02",
-        "nbMinPlayer": 3,
-        "nbMaxPlayer": 6,
-        "stake": 30000
-      }
-    ]
+  {
+    "name":"Casino2"
   },
-  "casino3": {
-    "id" : 3,
-    "name": "Casino3",
-    "city": "City3",
-    "games":[
-      {
-        "date": "2018-01-03",
-        "nbMinPlayer": 4,
-        "nbMaxPlayer": 8,
-        "stake": 500
-      },
-      {
-        "date": "2018-02-03",
-        "nbMinPlayer": 3,
-        "nbMaxPlayer": 6,
-        "stake": 2000000
-      },
-      {
-        "date": "2018-03-03",
-        "nbMinPlayer": 3,
-        "nbMaxPlayer": 7,
-        "stake": 400
-      }
-    ]
+  {
+    "name":"Casino3"
   }
+
+  ]
+
 }
